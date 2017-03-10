@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="hbb.example.MainActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/anim_can"
+        android:layout_marginTop="20dp"
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--<include layout="@layout/live_board_gift_view"></include>-->
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/action"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="test"/>
+
+    <Button
+        android:id="@+id/action_dif" android:layout_toRightOf="@+id/action"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="送不同礼物"/>
+
+</RelativeLayout>
